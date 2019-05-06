@@ -1,0 +1,14 @@
+C:\Users\JPADILLA\source\repos\Ejemplo050519\Ejemplo050519\Ejemplo050519\bin\Debug\netstandard2.0\Ejemplo050519.deps.json
+C:\Users\JPADILLA\source\repos\Ejemplo050519\Ejemplo050519\Ejemplo050519\bin\Debug\netstandard2.0\Ejemplo050519.dll
+C:\Users\JPADILLA\source\repos\Ejemplo050519\Ejemplo050519\Ejemplo050519\bin\Debug\netstandard2.0\Ejemplo050519.pdb
+C:\Users\JPADILLA\source\repos\Ejemplo050519\Ejemplo050519\Ejemplo050519\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\JPADILLA\source\repos\Ejemplo050519\Ejemplo050519\Ejemplo050519\obj\Debug\netstandard2.0\Views\DetailPage.xaml.g.cs
+C:\Users\JPADILLA\source\repos\Ejemplo050519\Ejemplo050519\Ejemplo050519\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\JPADILLA\source\repos\Ejemplo050519\Ejemplo050519\Ejemplo050519\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\JPADILLA\source\repos\Ejemplo050519\Ejemplo050519\Ejemplo050519\obj\Debug\netstandard2.0\Ejemplo050519.csproj.CoreCompileInputs.cache
+C:\Users\JPADILLA\source\repos\Ejemplo050519\Ejemplo050519\Ejemplo050519\obj\Debug\netstandard2.0\Ejemplo050519.AssemblyInfoInputs.cache
+C:\Users\JPADILLA\source\repos\Ejemplo050519\Ejemplo050519\Ejemplo050519\obj\Debug\netstandard2.0\Ejemplo050519.AssemblyInfo.cs
+C:\Users\JPADILLA\source\repos\Ejemplo050519\Ejemplo050519\Ejemplo050519\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\JPADILLA\source\repos\Ejemplo050519\Ejemplo050519\Ejemplo050519\obj\Debug\netstandard2.0\Ejemplo050519.dll
+C:\Users\JPADILLA\source\repos\Ejemplo050519\Ejemplo050519\Ejemplo050519\obj\Debug\netstandard2.0\Ejemplo050519.pdb
+C:\Users\JPADILLA\source\repos\Ejemplo050519\Ejemplo050519\Ejemplo050519\obj\Debug\netstandard2.0\Ejemplo050519.csprojAssemblyReference.cache

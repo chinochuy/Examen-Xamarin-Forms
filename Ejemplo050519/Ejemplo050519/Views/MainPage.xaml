@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejemplo050519.Views.MainPage"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             Title="Lista de Usuarios"
+             BackgroundColor="#f2f2f2">
+    <Grid Padding="20,10,20,0">
+        <StackLayout Grid.Row="0">
+            <ListView     ItemsSource="{Binding _UsuariosLista}"  
+                          SelectedItem="{Binding SelectedUsuariosList, Mode=TwoWay}"
+	                      SeparatorColor="Transparent"
+	                      Margin="0,20,0,0"
+	                      RowHeight="130"
+	                      HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                          SelectionMode="Single"
+	                      BackgroundColor="Transparent">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell IsEnabled="True">
+                            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#f2f2f2">
+                                <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="White" Margin="0,0,0,5">
+                                    <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Padding="5,0,0,0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="20*"/>
+                                            <ColumnDefinition Width="60*"/>
+                                            <ColumnDefinition Width="20*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <StackLayout Grid.Column="0">
+                                            <controls:CircleImage Source="{Binding Imagen}" WidthRequest="80" HeightRequest="80"/>
+                                        </StackLayout>
+
+                                        <!--<Image Grid.Column="0" Source="{Binding Imagen}" HorizontalOptions="Center"/>-->
+
+                                        <Grid Grid.Column="1">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="*"/>
+                                                <RowDefinition Height="*"/>
+                                                <RowDefinition Height="*"/>
+                                            </Grid.RowDefinitions>
+                                            <Label Grid.Row="0" Text="{Binding NombreCompleto}" TextColor="Black" HorizontalOptions="Start" VerticalTextAlignment="Center" FontAttributes="Bold"/>
+                                            <Label Grid.Row="1" Text="{Binding Correo}" FontSize="12" TextColor="#33cc33" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Start"/>
+                                            <Grid Grid.Row="2" ColumnSpacing="0">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="15*"/>
+                                                    <ColumnDefinition Width="70*"/>
+                                                </Grid.ColumnDefinitions>
+
+                                                <Image Grid.Column="0" Source="pin" WidthRequest="25" HeightRequest="25" HorizontalOptions="Start"/>
+                                                <Label Grid.Column="1" Text="{Binding Calle}" TextColor="Gray" HorizontalOptions="Start"/>
+                                            </Grid>
+                                        </Grid>
+
+                                        <Grid Grid.Column="2">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="30*"/>
+                                                <ColumnDefinition Width="70*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Image Grid.Column="0" Source="rating" WidthRequest="25" HeightRequest="25" HorizontalOptions="Start" VerticalOptions="Start"/>
+                                            <Label Grid.Column="1" Text="{Binding Rating}" TextColor="Gray" HorizontalOptions="Start"/>
+                                        </Grid>
+                                    </Grid>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </Grid>
+</ContentPage>
